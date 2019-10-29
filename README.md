@@ -8,3 +8,4 @@ For Assignment:
 4) To List the added contacts, created a view which will display all the published(Active) contacts. It is present next to home tab in home page.
 5) Assumption: Only admin will have the access to change the status of the contact. Hence can navigate to list /admin/content and edit the list accordingly.
 6) All the configurations exported using the configuration synchronization and created a folder named configs.
+
