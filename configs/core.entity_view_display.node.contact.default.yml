@@ -1,0 +1,42 @@
+uuid: 2becdb60-70fa-4ef5-8b4b-92aae276c842
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact.field_email
+    - field.field.node.contact.field_last_name
+    - field.field.node.contact.field_phone_number
+    - node.type.contact
+  module:
+    - user
+id: node.contact.default
+targetEntityType: node
+bundle: contact
+mode: default
+content:
+  field_email:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_last_name:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone_number:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: 1d71f5d8-7bc0-4687-b41d-f1c3dbc6f953
+name: 'Contact List'
+mail: akanchhasinghbhadauria@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
